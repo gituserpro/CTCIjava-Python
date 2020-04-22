@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="45ac3794-b305-4a88-b222-b39c34941ce6" name="Default Changelist" comment="" />
+    <list default="true" id="45ac3794-b305-4a88-b222-b39c34941ce6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Java/Chp1/CustomLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IntellijIde/Main.class" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,52 +17,93 @@
     <session id="1318833862">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.open.time.16" value="2" />
           <entry key="project.open.time.18" value="1" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="16" />
-          <entry key="java" value="1324" />
+          <entry key="java" value="3811" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1324" />
+          <entry key="JAVA" value="3811" />
           <entry key="PLAIN_TEXT" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="3" />
+          <entry key="java" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="3" />
+          <entry key="JAVA" value="5" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Java/Chp1/StringAndArray.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="330">
-              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Java/Chp1/CustomLinkedList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="170" column="8" selection-start-line="170" selection-start-column="8" selection-end-line="170" selection-end-column="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="class#ListNode#0;class#CustomLinkedList#0" />
+                <element signature="method#add#0;class#CustomLinkedList#0" />
+                <element signature="method#addLast#0;class#CustomLinkedList#0" />
+                <element signature="method#print#0;class#CustomLinkedList#0" />
+                <element signature="method#remove#0;class#CustomLinkedList#0" />
+                <element signature="method#removeDuplicates#0;class#CustomLinkedList#0" />
+                <element signature="method#KThToTheLast#0;class#CustomLinkedList#0" />
+                <element signature="method#partitionAround#0;class#CustomLinkedList#0" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Node</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>ListNode</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/Java/Chp1/LinkedList.java" />
+        <option value="$PROJECT_DIR$/src/Java/Chp1/CustomLinkedList.java" />
       </list>
     </option>
   </component>
@@ -73,12 +118,13 @@
     <option name="width" value="1440" />
     <option name="height" value="852" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
@@ -102,13 +148,14 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1587243973312" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1587449599331" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.smartKeys" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -122,7 +169,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.CustomLinkedList">
+    <configuration name="CustomLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java.Chp1.CustomLinkedList" />
+      <module name="IntellijIde" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Java.Chp1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="StringAndArray" />
       <module name="IntellijIde" />
@@ -133,8 +193,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.CustomLinkedList" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CustomLinkedList" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -150,18 +215,20 @@
       <option name="presentableId" value="Default" />
       <updated>1587222987919</updated>
       <workItem from="1587222991707" duration="3407000" />
-      <workItem from="1587234175406" duration="3933000" />
+      <workItem from="1587234175406" duration="12540000" />
+      <workItem from="1587474502557" duration="2036000" />
+      <workItem from="1587551497629" duration="653000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7340000" />
+    <option name="totallyTimeSpent" value="18636000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="852" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26609442" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2732475" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -175,7 +242,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32894737" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32894737" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32894737" />
@@ -207,23 +274,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="100" column="8" lean-forward="true" selection-start-line="100" selection-start-column="8" selection-end-line="100" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#IsUnique1#0;class#Main#0" />
-            <element signature="method#isPrem#0;class#Main#0" />
-            <element signature="method#IsPalindrome#0;class#Main#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java" />
+    <entry file="file://$PROJECT_DIR$/src/Java/Chp1/LinkedList.java" />
     <entry file="file://$PROJECT_DIR$/src/Java/Chp1/StringAndArray.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Java/Chp1/CustomLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="170" column="8" selection-start-line="170" selection-start-column="8" selection-end-line="170" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="class#ListNode#0;class#CustomLinkedList#0" />
+            <element signature="method#add#0;class#CustomLinkedList#0" />
+            <element signature="method#addLast#0;class#CustomLinkedList#0" />
+            <element signature="method#print#0;class#CustomLinkedList#0" />
+            <element signature="method#remove#0;class#CustomLinkedList#0" />
+            <element signature="method#removeDuplicates#0;class#CustomLinkedList#0" />
+            <element signature="method#KThToTheLast#0;class#CustomLinkedList#0" />
+            <element signature="method#partitionAround#0;class#CustomLinkedList#0" />
+          </folding>
         </state>
       </provider>
     </entry>
